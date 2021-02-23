@@ -24,3 +24,7 @@ Route::get('firstroute',function(){
 Route::get('secondroute', function () {
     return view('lab4');
 }); 
+
+Route::get('fourthroute/{fname}/{lname}',function($fname,$lname){
+    return "My full name is: ".$fname." ".$lname;
+});
