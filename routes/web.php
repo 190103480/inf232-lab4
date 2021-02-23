@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('firstroute',function(){
     return "Anelya Zharylkapova";
 });
+
+Route::get('secondroute', function () {
+    return view('lab4');
+}); 
